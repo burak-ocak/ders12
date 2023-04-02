@@ -26,7 +26,7 @@ function App() {
 
   useEffect( ()=>{
     pencereBoyutuGuncelle( {genislik: 100, yukseklik: 200} )
-  } )
+  }, [] )
 
   return (
     <div>
